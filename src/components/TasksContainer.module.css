@@ -1,0 +1,39 @@
+.tasksContainer {
+	margin-top: 4rem;
+	display: flex;
+	flex-direction: column;
+	gap: 1.5rem;
+}
+
+.tasksInfo {
+	display: flex;
+	justify-content: space-between;
+}
+
+.tasksInfoSection {
+	font-size: 0.875rem;
+
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+}
+
+.tasksCreatedText {
+	color: var(--blue);
+}
+
+.tasksCompletedText {
+	color: var(--purple);
+}
+
+.tasksCounter {
+	font-size: 0.75rem;
+	color: var(--gray-200);
+
+	background: var(--gray-400);
+	padding: 0.125rem 0.5rem;
+	border-radius: 16px;
+}
+
+.tasksList {
+}
